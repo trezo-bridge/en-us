@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+}
+
+.prose h2, .prose h3 {
+  color: #1b5e20;
+}
+
+.prose strong {
+  color: #1b5e20;
+  font-weight: 600;
+}
+
+.prose ul li, .prose ol li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.prose a {
+  color: #1b5e20;
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .prose {
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+}
